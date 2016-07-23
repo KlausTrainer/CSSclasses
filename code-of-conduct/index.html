@@ -49,7 +49,7 @@
                 addFont();
             } else {
                 var request = new XMLHttpRequest();
-                request.open('GET', 'css/fonts/data-woff.css', true);
+                request.open('GET', '/css/fonts/data-woff.css', true);
 
                 request.onload = function() {
                     if (request.status >= 200 && request.status < 400) {
@@ -63,11 +63,9 @@
       }
     }());
   </script>
-  <script src="/assets/js/highlight.pack.js"></script>
-  <script src="/assets/js/switch.js"></script>
-  <script src="/assets/js/scrollMenu.js"></script>
-  <script>hljs.initHighlightingOnLoad();</script>
-  <script src="/vendor/js/snap.svg-min.js"></script>
+  
+    <script src="/js/cssclasses.js" defer></script>
+  
 </head>
 
   <body>
@@ -140,7 +138,7 @@
   <h2>The Quick Version</h2>
   <p>Our meetup is dedicated to providing a harassment-free experience for everyone, regardless of gender, age, sexual orientation, disability, physical appearance, body size, race, or religion. We do not tolerate harassment of participants in any form. Sexual language and imagery is not appropriate for any parts of our events, including talks, workshops, Twitter and other online media. Attendees violating these rules may be sanctioned or expelled from this meetup and/or any future meetups at the discretion of the usergroup organisers.</p>
 
-  <h2>The Less Quick Verison</h2>
+  <h2>The Less Quick Version</h2>
   <p>Harassment includes offensive verbal comments related to gender, sexual orientation, disability, physical appearance, body size, race, religion, sexual images in public spaces, deliberate intimidation, stalking, following, harassing photography or recording, sustained disruption of talks or other events, inappropriate physical contact, and unwelcome sexual attention.</p>
   <p>Participants asked to stop any harassing behavior are expected to comply immediately.</p>
   <p>Sponsors are also subject to the anti-harassment policy. In particular, sponsors should not use sexualised images, activities, or other material.</p>
@@ -191,7 +189,5 @@
 </footer>
 
     </div>
-    <script src="/vendor/js/classie.js"></script>
-    <script src="/assets/js/navigation-main.js"></script>
   </body>
 </html>

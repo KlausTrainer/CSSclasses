@@ -49,7 +49,7 @@
                 addFont();
             } else {
                 var request = new XMLHttpRequest();
-                request.open('GET', 'css/fonts/data-woff.css', true);
+                request.open('GET', '/css/fonts/data-woff.css', true);
 
                 request.onload = function() {
                     if (request.status >= 200 && request.status < 400) {
@@ -63,11 +63,9 @@
       }
     }());
   </script>
-  <script src="/assets/js/highlight.pack.js"></script>
-  <script src="/assets/js/switch.js"></script>
-  <script src="/assets/js/scrollMenu.js"></script>
-  <script>hljs.initHighlightingOnLoad();</script>
-  <script src="/vendor/js/snap.svg-min.js"></script>
+  
+    <script src="/js/cssclasses.js" defer></script>
+  
 </head>
 
   <body>
@@ -131,11 +129,7 @@
 </header>
 
       <main class="l-width-content l--has-pt">
-        <script src="/vendor/js/reqwest.min.js"></script>
-<script src="/vendor/js/strftime-min.js"></script>
-<script src="/assets/js/upcoming-events.js"></script>
-
-<section id="upcoming-events" class="is-hidden">
+        <section id="upcoming-events" class="is-hidden">
   <h1>Join our next events!</h1>
   <ul id="upcoming-events-list"></ul>
   <p>Are you interested in helping out as a coach? Great! We are always looking for help. Basic knowledge of HTML and CSS is sufficient to become a coach, more important is the fun in teaching and sharing knowledge. Read more about how to become a coach <a href="/coaches/">here</a>.</p>
@@ -145,12 +139,12 @@
 
 <section>
   <p>
-    The day will include an optional workshop for beginners (and anyone who feels like refreshing their basics), as well as free hacking and collaborating for experts and newbies alike. Around 6pm, we’ll wrap up and everyone is invited to demo their achievements. Afterwards, we’ll end the day with celebratory drinks and socializing at co.up!
+    The day will include an optional workshop for beginners (and anyone who feels like refreshing their basics), as well as free hacking and collaborating for experts and newbies alike. Around 5pm, we’ll wrap up and everyone is invited to demo their achievements.
   </p>
 </section>
 <section>
   <h1 class="beta">What is CSSclasses?</h1>
-  <p>CSSClasses are one day events for people who are interested in learning how they can create and manipulate elements on a website. A group of experienced developers will be by your side all day and make sure you return home with a lot of new knowledge. The event itself is seperated into two parts: A workshop where you will learn how to get creative with CSS and a hackathon where you can then make your hands dirty and work on your own little fun project.</p>
+  <p>CSSclasses is a one day event for people who are interested in learning how they can create and manipulate elements on a website. A group of experienced developers will be by your side all day and make sure you return home with a lot of new knowledge. The event itself is separated into two parts: A workshop where you will learn how to get creative with CSS and a hackathon where you can then make your hands dirty and work on your own little fun project.</p>
 
   <h2>Who can attend?</h2>
   <p>Anyone! Learners of all levels are welcome, including beginners with absolutely no experience and advanced CSS coders. We require you to respect our core values, and make sure to check out the information for attendees page.</p>
@@ -199,7 +193,5 @@
 </footer>
 
     </div>
-    <script src="/vendor/js/classie.js"></script>
-    <script src="/assets/js/navigation-main.js"></script>
   </body>
 </html>
